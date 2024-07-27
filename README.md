@@ -1,5 +1,5 @@
 [sort_moments.py]
-Explanation:
+
 Generates a unique filename by appending (n) to the base name of the file if a file with the same name already exists in the destination directory. 
 Checks if a file with the new name exists and increments the counter until a unique name is found.
 
@@ -15,22 +15,16 @@ Prompts the user to choose whether to process a single parent folder or multiple
 Prompts the user to enter the source and destination directory paths.
 Calls the appropriate function based on the user's choice.
 
-========================================================================================================================================================
+=======================================================================================================================
 
 [copy_or_move_with_renaming.py]
 
 How to Use:
 
-Save the Script:
-
 Save the script as copy_or_move_with_renaming.py.
-Run the Script:
-
 Use a Python interpreter to run the script:
-sh
-Copy code
-python copy_or_move_with_renaming.py
-Follow the Prompts:
+
+    python copy_or_move_with_renaming.py
 
 Enter 1 to copy files or 2 to move files.
 Provide the source and destination directory paths when asked.
